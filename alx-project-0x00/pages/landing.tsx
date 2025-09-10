@@ -11,21 +11,24 @@ const Landing: React.FC = () => {
       <div className="flex gap-3">
         <Button title="Small - sm" className="text-sm px-2 py-1 rounded-sm" />
         <Button title="Small - md" className="text-sm px-2 py-1 rounded-md" />
-        <Button title="Small - full" className="text-sm px-2 py-1 rounded-lg" />
+        <Button title="Small - lg" className="text-sm px-2 py-1 rounded-lg" />
+        <Button title="Small - full" className="text-sm px-2 py-1 rounded-full" />
       </div>
 
       {/* Medium Buttons */}
       <div className="flex gap-3">
         <Button title="Medium - sm" className="text-base px-4 py-2 rounded-sm" />
         <Button title="Medium - md" className="text-base px-4 py-2 rounded-md" />
-        <Button title="Medium - full" className="text-base px-4 py-2 rounded-lg" />
+        <Button title="Medium - lg" className="text-base px-4 py-2 rounded-lg" />
+        <Button title="Medium - full" className="text-sm px-2 py-1 rounded-full" />
       </div>
 
       {/* Large Buttons */}
       <div className="flex gap-3">
         <Button title="Large - sm" className="text-lg px-6 py-3 rounded-sm" />
         <Button title="Large - md" className="text-lg px-6 py-3 rounded-md" />
-        <Button title="Large - full" className="text-lg px-6 py-3 rounded-lg" />
+        <Button title="Large - lg" className="text-lg px-6 py-3 rounded-lg" />
+        <Button title="Large - full" className="text-sm px-2 py-1 rounded-full" />
       </div>
     </div>
   );
